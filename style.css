@@ -63,9 +63,9 @@ body{
     background-color: rgb(117, 117, 240);
     color: aliceblue;
 }
-#quiz{
-    /* display: none; */
-}
+/* #quiz{
+    display: none;
+} */
 
 #start{
     height:50px;
@@ -78,4 +78,10 @@ body{
       height: 100%;
       object-fit: cover;
       border-radius: 10px;
+}
+.correct{
+    background-color: rgb(165, 245, 165);
+}
+.wrong{
+    background-color: rgb(243, 61, 61);
 }
